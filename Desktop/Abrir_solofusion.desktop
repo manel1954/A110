@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=AbrirsoloYSF
+Comment=
+Exec=sh -c "cd /home/pi/A110/;sh ejecutar_solofusion.sh"
+Icon=/home/pi/A110/ICO_SOLOFUSION_OFF.png
+Path=/home/pi/A110
+Terminal=false
+StartupNotify=false
+Name[es_ES]=Abrir solo FUSION

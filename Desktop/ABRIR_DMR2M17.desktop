@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ABRIR DMR2M17
+Comment=
+Exec=sh -c "cd /home/pi/A110; sudo sh ejecutar_DMR2M17.sh"
+Icon=/home/pi/A110/ICO_DMR2M17_OFF.png
+Path=/home/pi/A110
+Terminal=false
+StartupNotify=false
