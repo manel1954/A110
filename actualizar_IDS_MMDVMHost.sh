@@ -11,7 +11,7 @@ NEGRO="\33[0;30m"
 clear
 echo ""
 echo -n "${AMARILLO}"
-echo "    **-ACTUALIZANDO IDS INDICATIVOS-EA3EIZSSSS**"
+echo "    **-ACTUALIZANDO IDS INDICATIVOS-EA3EI**"
 echo -n "${VERDE}"
 #echo "ACTUALIZANDO DMRIds.dat para DVSWITCH"
 sleep 13
