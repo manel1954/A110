@@ -45,6 +45,7 @@ else
                         echo "${AMARILLO}"                        
                         cd /home/pi/A110                       
                         git pull
+                        sh /home/pi/A110/ejecutar_ImagenActualizada.sh &
                         sleep 3
                         mv qt_* /home/pi/A110/qt
                         chmod 777 -R /home/pi/A110/qt
