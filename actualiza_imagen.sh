@@ -9,7 +9,7 @@ GRIS="\033[0m"
 MARRON="\33[38;5;138m"
 
 
-sh /home/pi/A110/ejecutar_ImagenActualizada.sh &  
+  
 
 sudo rm /home/pi/comprueba_internet.txt
 cd /home/pi
@@ -38,7 +38,7 @@ echo "                    NO TIENES INTERNET Y NO  SE VA A ACTUALIZAR           
 echo "***************************************************************************************"
 echo "${VERDE}PULSA ENTER PARA SALIR"
 read a
-
+sh /home/pi/A110/ejecutar_ImagenActualizada.sh &
 else
 {
                         clear
