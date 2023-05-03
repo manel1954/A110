@@ -9,7 +9,7 @@ GRIS="\033[0m"
 MARRON="\33[38;5;138m"
 
 
-# sh /home/pi/A110/ejecutar_ImagenActualizada.sh &  
+sh /home/pi/A110/ejecutar_ImagenActualizada.sh &  
 
 sudo rm /home/pi/comprueba_internet.txt
 cd /home/pi
@@ -48,8 +48,6 @@ else
                         sleep 3
                         mv qt_* /home/pi/A110/qt
                         chmod 777 -R /home/pi/A110/qt
-                        cd /home/pi/A110/qt
-                        ./qt_actualizando_imagen
 
 }
 
