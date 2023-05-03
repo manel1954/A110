@@ -2,7 +2,7 @@
 Encoding=UTF-8
 TryExec=lxterminal
 Exec=sh -c "cd /home/pi/A110/qt;./qt_notas_version"
-Icon=/home/pi/A110/ICONO_NOTAS_VERSION1.png
+Icon=/home/pi/A110/ICO_NOTAS_VERSION.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;
