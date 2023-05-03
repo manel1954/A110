@@ -246,5 +246,3 @@ sleep 2
 sudo rm /home/pi/A110/Desktop/st-data
 sudo rm /home/pi/Desktop/st-data
 
-cd /home/pi/A110/
-sh comprueba_version.sh
