@@ -48,6 +48,8 @@ else
                         sleep 3
                         mv qt_* /home/pi/A110/qt
                         chmod 777 -R /home/pi/A110/qt
+                        cd /home/pi/A110/qt
+                        ./qt_actualizando_imagen
 
 }
 
