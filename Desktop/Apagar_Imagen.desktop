@@ -2,7 +2,7 @@
 Encoding=UTF-8
 TryExec=lxterminal
 Exec=sh -c 'cd /home/pi/A110/qt;./qt_apagar_imagen'
-Icon=/home/pi/A110/ICONO_APAGAR_IMAGEN1.png
+Icon=/home/pi/A110/ICO_APAGAR_IMAGEN.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;
