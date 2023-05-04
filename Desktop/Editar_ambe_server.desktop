@@ -2,7 +2,7 @@
 Encoding=UTF-8
 TryExec=lxterminal
 Exec=sh -c 'cd /home/pi/A110/qt; ./qt_editor_ambe_server'
-Icon=/home/pi/A110/ICO_AMBE_OFF.png
+Icon=/home/pi/A110/ICO_EDITOR_RADIO.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;
