@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c "cd /home/pi/A110/qt; ./qt_editor_md380tools"
-Icon=/home/pi/A110/ICONO_MD380TOOLS1.png
+Exec=sh -c "cd /home/pi/A110/qt; ./qt_menu_ambeserver_y_3003"
+Icon=/home/pi/A110/ICO_EDITOR_BM.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;
 Terminal=false
-Name[es_ES]=MD380 TOOLS
+Name[es_ES]=Menu Ambe 3003
 Hidden=false
