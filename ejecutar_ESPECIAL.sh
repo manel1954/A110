@@ -34,8 +34,6 @@ cd /home/pi
 sudo cp Abrir_ESPECIAL.desktop /home/pi/Desktop
 #sleep 1
 sudo rm /home/pi/Abrir_ESPECIAL.desktop
-cd /home/pi/A110/qt
-./qt_callsign_log &
 
 cd /home/pi/MMDVMHost
 
