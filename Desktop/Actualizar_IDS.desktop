@@ -2,7 +2,7 @@
 Encoding=UTF-8
 TryExec=lxterminal
 Exec=sh -c 'cd /home/pi/A110/;lxterminal --geometry=40x5 -e sudo sh actualizar_IDS_MMDVMHost.sh'
-Icon=/home/pi/A110/ICONO_ACTUALIZAR_IDS1.png
+Icon=/home/pi/A110/ICO_ACTUALIZAR_IDS.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;
