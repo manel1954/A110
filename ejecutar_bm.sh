@@ -19,7 +19,7 @@ sudo cp /home/pi/RXF_BM.desktop /home/pi/Desktop
 
 sudo rm /home/pi/RXF_BM.desktop
 
-#Escribe en el fichero INFO_RXF para poner los datos en el icono INFO TXF 
+#Escribe en el fichero INFO_RXF para poner los datos en el icono INFO TXF  
 sed -i "1c $frecuencia" /home/pi/INFO_RXF
 
 SCRIPTS_version=$(awk "NR==1" /home/pi/.config/autostart/version)
@@ -35,7 +35,7 @@ sudo cp Abrir_MMDVMBM.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_MMDVMBM.desktop
 
 cd /home/pi/MMDVMHost
-xterm -geometry 88x17+22+665 -bg brown -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_BRANDMEISTER -e sudo ./MMDVMBM MMDVMBM.ini
+xterm -geometry 88x17+648+665 -bg brown -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_BRANDMEISTER -e sudo ./MMDVMBM MMDVMBM.ini
 cd /home/pi/Desktop
 sudo cp Abrir_MMDVMBM.desktop /home/pi
 sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version; sh ejecutar_bm.sh'" /home/pi/Abrir_MMDVMBM.desktop
