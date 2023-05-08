@@ -30,7 +30,7 @@ fi
 cd /home/pi/Desktop
 sudo cp Abrir_dump1090.desktop /home/pi
 sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version; sh ejecutar_dump1090.sh'" /home/pi/Abrir_dump1090.desktop
-sed -i "5c Icon=/home/pi/$SCRIPTS_version/ICONO_AVION_OFF.png" /home/pi/Abrir_dump1090.desktop
+sed -i "5c Icon=/home/pi/$SCRIPTS_version/ICO_AVION_OFF.png" /home/pi/Abrir_dump1090.desktop
 sed -i "10c Name[es_ES]=Abrir Dump1090" /home/pi/Abrir_dump1090.desktop
 
 cd /home/pi
