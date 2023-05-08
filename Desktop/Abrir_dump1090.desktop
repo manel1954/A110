@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+TryExec=lxterminal
+Exec=sh -c 'cd /home/pi/A110;sh ejecutar_dump1090.sh'
+Icon=/home/pi/A110/ICO_AVION_OFF.png
+Type=Application
+StartupNotify=false
+Categories=GTK;Utility;TerminalEmulator;
+Terminal=false
+Name[es_ES]=Abrir Dump1090 
+Hidden=false
+Comment[es_ES]=EA3EIZ
