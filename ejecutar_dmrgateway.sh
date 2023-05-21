@@ -58,7 +58,7 @@ echo "${GRIS}"
 
 cd /home/pi/DMRGateway
 
-xterm -geometry 88x4+648+0 -bg white -fg black -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMDMRGATEWAY -e sudo ./DMRGateway DMRGateway.ini &
+xterm -geometry 88x17+648+359 -bg white -fg black -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMDMRGATEWAY -e sudo ./DMRGateway DMRGateway.ini &
 
 sleep 2
 
